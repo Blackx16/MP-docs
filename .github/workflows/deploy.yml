@@ -3,7 +3,7 @@ name: Deploy Hugo site to Pages
 on:
   push:
     branches:
-      - master  # deploy whenever master changes
+      - master
 
 permissions:
   contents: read
