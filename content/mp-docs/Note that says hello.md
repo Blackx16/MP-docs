@@ -11,4 +11,4 @@ try again
 ---
 stupid :)
 
-!![Image Description](/images/butterfly_Alexander-James-Plate0813-021-800px.jpg)
+![[butterfly_Alexander-James-Plate0813-021-800px.jpg]]
