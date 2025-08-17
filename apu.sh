@@ -10,7 +10,7 @@ sourcePath="/home/ArchBTW/Documents/vault/Obsidian Vault/mp-docs/"
 destinationPath="/home/ArchBTW/Documents/vault/Minorproject-Essential-Space/content/mp-docs/"
 
 # Set GitHub Repo
-myrepo="reponame"
+myrepo="git@github.com:Blackx16/MP-docs.git"
 
 # Check for required commands
 for cmd in git rsync python3 hugo; do
