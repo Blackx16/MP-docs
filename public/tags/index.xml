@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Terminal</title>
-    <link>https://blackx16.github.io/MP-docs/tags/</link>
+    <link>http://localhost:1313/MP-docs/tags/</link>
     <description>Recent content in Tags on Terminal</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 17 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blackx16.github.io/MP-docs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/MP-docs/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Checkpoint</title>
-      <link>https://blackx16.github.io/MP-docs/tags/checkpoint/</link>
+      <link>http://localhost:1313/MP-docs/tags/checkpoint/</link>
       <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://blackx16.github.io/MP-docs/tags/checkpoint/</guid>
+      <guid>http://localhost:1313/MP-docs/tags/checkpoint/</guid>
       <description></description>
     </item>
     <item>
       <title>Firstdraftnote</title>
-      <link>https://blackx16.github.io/MP-docs/tags/firstdraftnote/</link>
+      <link>http://localhost:1313/MP-docs/tags/firstdraftnote/</link>
       <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://blackx16.github.io/MP-docs/tags/firstdraftnote/</guid>
+      <guid>http://localhost:1313/MP-docs/tags/firstdraftnote/</guid>
       <description></description>
     </item>
     <item>
       <title>Srs</title>
-      <link>https://blackx16.github.io/MP-docs/tags/srs/</link>
+      <link>http://localhost:1313/MP-docs/tags/srs/</link>
       <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://blackx16.github.io/MP-docs/tags/srs/</guid>
+      <guid>http://localhost:1313/MP-docs/tags/srs/</guid>
       <description></description>
     </item>
   </channel>
