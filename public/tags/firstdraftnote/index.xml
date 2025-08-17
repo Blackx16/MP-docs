@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Firstdraftnote on Terminal</title>
-    <link>http://localhost:1313/MP-docs/tags/firstdraftnote/</link>
+    <link>https://blackx16.github.io/MP-docs/tags/firstdraftnote/</link>
     <description>Recent content in Firstdraftnote on Terminal</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 17 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/MP-docs/tags/firstdraftnote/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blackx16.github.io/MP-docs/tags/firstdraftnote/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Note that says hello</title>
-      <link>http://localhost:1313/MP-docs/mp-docs/note-that-says-hello/</link>
+      <link>https://blackx16.github.io/MP-docs/mp-docs/note-that-says-hello/</link>
       <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/MP-docs/mp-docs/note-that-says-hello/</guid>
-      <description>&lt;h2 id=&#34;try-again&#34;&gt;Hello!&#xA;this is not a way to write a note bitch&#xA;try again&lt;/h2&gt;&#xA;&lt;p&gt;stupid :)&lt;/p&gt;&#xA;&lt;p&gt;!&lt;img src=&#34;http://localhost:1313/MP-docs/images/butterfly_Alexander-James-Plate0813-021-800px.jpg&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      <guid>https://blackx16.github.io/MP-docs/mp-docs/note-that-says-hello/</guid>
+      <description>&lt;h2 id=&#34;try-again&#34;&gt;Hello!&#xA;this is not a way to write a note bitch&#xA;try again&lt;/h2&gt;&#xA;&lt;p&gt;stupid :)&lt;/p&gt;&#xA;&lt;p&gt;![[butterfly_Alexander-James-Plate0813-021-800px.jpg]]&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
