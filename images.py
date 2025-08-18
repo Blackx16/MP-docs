@@ -3,9 +3,9 @@ import re
 import shutil
 
 # Paths
-posts_dir = "/home/ArchBTW/Documents/vault/Minorproject-Essential-Space/content/mp-docs/"
+posts_dir = "content/mp-docs/"
 attachments_dir = "/home/ArchBTW/Documents/vault/Obsidian Vault/"
-static_images_dir = "/home/ArchBTW/Documents/vault/Minorproject-Essential-Space/static/images/"
+static_images_dir = "static/images/"
 
 # Step 1: Process each markdown file in the posts directory
 for filename in os.listdir(posts_dir):
@@ -16,7 +16,7 @@ for filename in os.listdir(posts_dir):
             content = file.read()
 
         # Step 2: Find all image links in the format ![Image Description](/images/Pasted%20image%20...%20.png)
-        images = re.findall(r'\[\[([^]]*\.(?:png|jpg|jpeg|gif|bmp|svg|webp))\]\]', content, re.IGNORECASE)
+        images = re.findall(r'!?\[\[([^]]*\.(?:png|jpg|jpeg|gif|bmp|svg|webp))\]\]', content)
 
         # Step 3: Replace image links and ensure URLs are correctly formatted
         for image in images:
