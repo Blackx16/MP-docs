@@ -12,4 +12,4 @@ tags:
 	2. Scope:
 		This system will take the idea to new heights.
 	3. Audience:
-		Me and Theerth KR who takes sceenshots as default mechanics to save shit in brain. p.s. it saves to brain.
+		Me and Theerth KR who takes sceenshots as default mechanics to save shit in brain. p.s. it never gets save to the brain.
