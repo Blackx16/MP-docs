@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mp-Docs on Terminal</title>
-    <link>https://blackx16.github.io/MP-docs/mp-docs/</link>
+    <link>http://localhost:1313/MP-docs/mp-docs/</link>
     <description>Recent content in Mp-Docs on Terminal</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 17 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blackx16.github.io/MP-docs/mp-docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/MP-docs/mp-docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>System Requirement Specifications</title>
-      <link>https://blackx16.github.io/MP-docs/mp-docs/system-requirement-specifications/</link>
+      <link>http://localhost:1313/MP-docs/mp-docs/system-requirement-specifications/</link>
       <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://blackx16.github.io/MP-docs/mp-docs/system-requirement-specifications/</guid>
+      <guid>http://localhost:1313/MP-docs/mp-docs/system-requirement-specifications/</guid>
       <description>&lt;h3 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;:&#xA;The purpose of this Software Requirements Specification (SRS) is to provide a detailed description of the requirements for the Essential Moments application. This document outlines the functional and non-functional requirements for the app, serving as the foundational agreement between stakeholders and the development team to guide the design, development, and testing of the system.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Scope&lt;/strong&gt;:&#xA;This system is an intelligent mobile companion designed to capture, organize, and make actionable the fleeting ideas and information users save via screenshots. It will automate the process of screenshot capture, enrich it with notes and voice memos, and use on-device and cloud-based AI to extract meaningful data. The goal is to replace the disorganized, default phone gallery with a smart, private, and actionable &amp;ldquo;second brain&amp;rdquo;.&lt;/p&gt;</description>
     </item>
   </channel>
