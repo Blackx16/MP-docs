@@ -6,7 +6,7 @@ tags:
   - firstdraftnote
 ---
 Hello!
-this is not a way to write a note bitch 
+this is not a way to write a note.
 try again
 ---
 stupid :)
