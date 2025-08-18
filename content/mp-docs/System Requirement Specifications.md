@@ -42,7 +42,7 @@ tags:
 	- Certain AI and scheduling features require an internet connection and user authentication with Google services.
 	- All data is stored locally by default. Any action that sends data to a cloud service (e.g., Gemini API) requires explicit user consent.
 
-4. Assumptions
+4. **Assumptions**
 	- It is assumed that users will have a device running a modern version of Android.
 	- Users have a Google account for calendar integration and optional cloud-based AI features.
 	- Users will have basic familiarity with mobile application usage and granting permissions.
@@ -51,50 +51,50 @@ tags:
 ### 3.  Specific Requirements
 
 1. Functional Requirements
-	***FR-1: Screenshot Detection & Overlay***
+- ***FR-1: Screenshot Detection & Overlay***
 	- The system shall run a persistent foreground service to monitor for new screenshots.
 	- Upon detection of a new screenshot, the system shall display a subtle, non-intrusive, tappable overlay button on the screen.
 	- Tapping the overlay button shall initiate the "Moment Creation" flow.
-	***FR-2: Moment Creation***
+- ***FR-2: Moment Creation***
 	- The system shall provide an interface to view the newly captured screenshot.
 	- The interface shall allow the user to add a text note, record a voice memo, or both.
 	- The system shall save the screenshot and any associated notes as a single "Moment" entity in the local Vault.
-	***FR-3: Essential Space (Gallery & Workspace)***
+- ***FR-3: Essential Space (Gallery & Workspace)***
 	- The system shall provide a central gallery view, the "Essential Space," to display all saved Moments.
 	- Users shall be able to tap on any Moment to open a detailed view.
 	- In the detailed view, users shall be able to edit text notes, play voice memos, and add further annotations.
 	- The system shall provide tools for drawing or annotating directly on the screenshot.
-	***FR-4: The Vault (Local Storage)***
+- ***FR-4: The Vault (Local Storage)***
 	- The system shall use a local-first NoSQL database (RxDB) to store all user data.
 	- Each Moment shall be stored as a flexible document containing the image path, text notes, audio path, metadata, and timestamps.
 	- All data must be stored exclusively on the user's device unless an explicit cloud action is taken.
-	***FR-5: AI Processing*** 
+- ***FR-5: AI Processing*** 
 	- *(Local)*: The system shall use the on-device Google ML Kit to automatically transcribe voice memos into text.
 	- (*Local)*: The system shall use the on-device Google ML Kit to perform Optical Character Recognition (OCR) on screenshots to extract text.
 	- *(Cloud)*: The system shall offer an option for the user to manually trigger reprocessing of a voice memo or OCR task using the more powerful Gemini API for higher accuracy. This action must require user consent.
-	***FR-6: Calendar Integration***
+- ***FR-6: Calendar Integration***
 	- The system shall analyze transcribed text (from voice or OCR) to detect intent related to dates, times, or events (e.g., "Meeting at 4 PM").
 	- If scheduling intent is detected, the system shall prompt the user with a suggestion to create a calendar event.
 	- Upon user confirmation, the system shall use the Google Calendar API to pre-fill and create a new calendar event.
 	
 2. **Non-Functional Requirements**
-	***NFR-1: Performance*** 
+- ***NFR-1: Performance*** 
 	- The screenshot detection overlay shall appear within 1 second of a screenshot being taken.
 	- The application's UI shall be responsive, with screen transitions and data loading completing in under 2 seconds on a mid-range device.
 	- On-device AI processing (transcription, OCR) should complete within 5-10 seconds for typical inputs.
-	***NFR-2: Usability*** 
+- ***NFR-2: Usability*** 
 	- The system shall have a clean, intuitive interface that adheres to Google's Material Design principles.
 	- The workflow for creating a Moment shall be fast and require minimal taps.
 	- The system shall provide clear feedback for all actions (e.g., "Moment saved," "Transcription complete").
-	***NFR-3: Security*** 
+- ***NFR-3: Security*** 
 	- All user data must be stored locally on the device's sandboxed storage.
 	- No data shall be uploaded to any cloud service automatically. Every cloud-based action must be user-initiated and require explicit consent.
 	- API keys and sensitive credentials must be stored securely and not be exposed in the application code.
-	***NFR-4: Reliability*** 
+- ***NFR-4: Reliability*** 
 	- The core functionality (screenshot capture, note-taking, local storage) shall be fully operational offline.
 	- The foreground service for screenshot detection must be stable and restart automatically if terminated by the OS.
 	- The system must handle permissions gracefully, guiding the user to grant necessary permissions if they are denied.
-	***NFR-5: Maintainability*** 
+- ***NFR-5: Maintainability*** 
 	- The system's code shall be modular, well-documented, and structured to allow for easy troubleshooting and future enhancements.
 	- The project will follow the GitFlow branching model to ensure code stability.
 
